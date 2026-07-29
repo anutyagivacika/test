@@ -1,0 +1,919 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Vacika — India's performing arts platform. A creative trust dedicated to cultural enrichment, artistic expression, and nation-building through the arts."
+    />
+    <title>Vacika — Celebrating the Art of Performance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link
+  href="https://fonts.cdnfonts.com/css/euclid-circular-a"
+  rel="stylesheet"
+/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav container">
+        <div class="nav-left" aria-hidden="true"></div>
+         <a href="#top" class="logo logo-center">
+          <img
+            src="./assets/logo.png"
+            alt="Vacika logo — a stylized lotus flower with the letter V"
+            class="logo-image"
+          />
+          <span class="nav-center">VACIKA</span>
+          </a>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#platform">Our Platform</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#invest">Invest</a></li>
+          <li><a href="#contact">Get in Touch</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero-split">
+      <div class="hero-split-image">
+        <img
+          src="Images/IMG_5445.JPG"
+          alt="Vacika theatre performance — classical stage production"
+          loading="eager"
+        />
+      </div>
+      <div class="hero-split-panel">
+        <div class="hero-split-inner reveal">
+          <h1>
+            <span class="hero-brand">Vacika</span>
+            <span class="hero-tagline">Celebrating the Art of Performance</span>
+          </h1>
+          <p>
+            Vacika is a creative trust and performing arts platform dedicated to
+            showcasing India's finest classical music, dance, and theatrical
+            productions. We preserve timeless traditions while building a
+            national stage where culture, community, and commerce converge —
+            giving artists a platform and the nation a voice.
+          </p>
+          <div class="hero-contact-row">
+            <a href="tel:+919990343963" class="hero-contact-link">
+              <i class="fa-solid fa-phone"></i>
+              +91-9990343963
+            </a>
+            <a href="mailto:vacikaorg@gmail.com" class="hero-contact-link">
+              <i class="fa-solid fa-envelope"></i>
+              vacikaorg@gmail.com
+            </a>
+          </div>
+          <div class="hero-cta">
+            <a href="#invest" class="btn btn-primary">Partner With Us</a>
+            <a href="#platform" class="btn btn-outline">Explore the Platform</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section class="stats-bar">
+      <div class="container">
+        <div class="stats-grid reveal">
+          <div class="stat-item">
+            <span class="stat-num">150+</span>
+            <span class="stat-label">Performances Delivered</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">50+</span>
+            <span class="stat-label">Communities Reached</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">200+</span>
+            <span class="stat-label">Artists Supported</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">7+</span>
+            <span class="stat-label">Years of Cultural Impact</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Platform for the Nation -->
+    <section class="section platform-section" id="platform">
+      <div class="container">
+        <div class="platform-grid">
+          <div class="platform-content reveal">
+            <span class="section-label">Our Platform</span>
+            <h2>
+              Where the <span class="text-pink">Nation</span> Finds Its Stage
+            </h2>
+            <p>
+              India carries one of the world's richest performing arts
+              traditions — yet thousands of artists lack the infrastructure,
+              funding, and audience reach to sustain their craft. Vacika bridges
+              that gap.
+            </p>
+            <p>
+              We are building a scalable platform that connects artists to
+              communities, sponsors to productions, and investors to measurable
+              cultural impact. From street plays in rural villages to grand
+              theatrical productions in urban centres, Vacika gives every story
+              a stage and every community a reason to gather.
+            </p>
+            <div class="platform-pillars">
+              <div class="platform-pillar">
+                <h4>Artist Empowerment</h4>
+                <p>
+                  Fair compensation, professional development, and nationwide
+                  visibility for performers.
+                </p>
+              </div>
+              <div class="platform-pillar">
+                <h4>Community Access</h4>
+                <p>
+                  Free and subsidised performances that bring the arts to
+                  underserved populations.
+                </p>
+              </div>
+              <div class="platform-pillar">
+                <h4>Cultural Preservation</h4>
+                <p>
+                  Documenting and reviving classical art forms before they fade
+                  from living memory.
+                </p>
+              </div>
+              <div class="platform-pillar">
+                <h4>Scalable Impact</h4>
+                <p>
+                  A replicable model designed to grow across states, languages,
+                  and art forms.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="platform-image reveal">
+  <video
+    id="platformVideo"
+    class="platform-video"
+    muted
+    playsinline
+    preload="metadata"
+  >
+    <source src="/assets/video.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <button
+    id="muteBtn"
+    class="video-control"
+    aria-label="Unmute video"
+  >
+    <i class="fa-solid fa-volume-xmark"></i>
+  </button>
+
+  <div class="platform-image-overlay" aria-hidden="true"></div>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Art of Expression -->
+    <section class="split-section" id="expression">
+      <div class="split-panel reveal">
+        <h2>
+          <span class="text-pink">The Art of Expression:</span> Diverse Mediums,
+          One Nation
+        </h2>
+        <p>
+          From the rhythmic movements of classical dance to the raw power of
+          street theatre, the arts offer a vast array of mediums for
+          self-expression and social dialogue. Vacika curates and produces
+          across every discipline — connecting India's creative diversity into a
+          unified platform that inspires, educates, and transforms communities.
+        </p>
+      </div>
+      <div class="split-image reveal">
+        <img
+          src="Images/IMG_5512-1.JPG"
+          alt="Spiritual theatre performance with traditional musicians"
+          loading="lazy"
+        />
+        <div class="split-image-overlay" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Gallery</span>
+          <h2>Celebrating the Diversity of the Arts</h2>
+          <p class="section-sub">
+            Real productions from Vacika's stage — classical heritage,
+            contemporary drama, and social theatre across India.
+          </p>
+        </div>
+        <div class="gallery-grid reveal">
+          <figure class="gallery-item gallery-item--wide">
+            <img
+              src="Images/IMG_4584.JPG"
+              alt="Martial arts and theatre fusion performance"
+              loading="lazy"
+            />
+            <figcaption>Theatre &amp; Martial Arts</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="Images/IMG_7926.JPG"
+              alt="Classical theatre with traditional costumes"
+              loading="lazy"
+            />
+            <figcaption>Classical Theatre</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="Images/IMG_20250220_154029.jpg"
+              alt="Street play on social themes"
+              loading="lazy"
+            />
+            <figcaption>Street Play</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="Images/IMG-20250312-WA0003.jpg"
+              alt="Contemporary stage production"
+              loading="lazy"
+            />
+            <figcaption>Contemporary Productions</figcaption>
+          </figure>
+          <figure class="gallery-item gallery-item--wide">
+            <img
+              src="Images/IMG_7418 (1) (1).JPG"
+              alt="Spiritual heritage theatre"
+              loading="lazy"
+            />
+            <figcaption>Spiritual Heritage</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="Images/IMG_20240126_001334.jpg"
+              alt="Modern drama on stage"
+              loading="lazy"
+            />
+            <figcaption>Modern Drama</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Evolution of Art -->
+    <section class="section evolution" id="evolution">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Through the Ages</span>
+          <h2>From Ancient Tradition to a Modern Platform</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-num">1</span>
+            <div class="timeline-body">
+              <h3>Roots in Heritage</h3>
+              <p>
+                India's performing arts trace back millennia — from Natya
+                Shastra to folk traditions passed through generations. Vacika
+                honours this lineage in every production.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-num">2</span>
+            <div class="timeline-body">
+              <h3>Building the Platform</h3>
+              <p>
+                Over a decade of grassroots work — street plays, community
+                workshops, and classical productions — has shaped Vacika into a
+                trusted cultural institution.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-num">3</span>
+            <div class="timeline-body">
+              <h3>Scaling for Impact</h3>
+              <p>
+                With investor partnership, Vacika is poised to expand nationally
+                — digitising reach, professionalising operations, and
+                multiplying cultural impact across India.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Disciplines -->
+    <section class="section disciplines" id="disciplines">
+      <div class="container">
+        <!-- Music -->
+        <div class="discipline-block reveal">
+          <div class="discipline-block-grid">
+            <div class="discipline-block-img">
+              <img
+                src="Images/IMG_5445.JPG"
+                alt="Traditional music in Vacika production"
+                loading="lazy"
+              />
+            </div>
+            <div class="discipline-block-text">
+              <span class="section-label">Music</span>
+              <h2>The Power of Music: Connecting Hearts and Souls</h2>
+              <div class="feature-cards">
+                <div class="feature-card">
+                  <h4>Emotional Expression</h4>
+                  <p>
+                    Music conveys and evokes a wide range of emotions — from joy
+                    and sorrow to inspiration and contemplation.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <h4>Cultural Preservation</h4>
+                  <p>
+                    Musical traditions serve as a vital link to India's cultural
+                    heritage and regional identity.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <h4>Unifying Force</h4>
+                  <p>
+                    Music transcends language barriers, fostering shared
+                    experiences that resonate across the nation.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Theatre -->
+        <div class="discipline-block reveal">
+          <div class="discipline-block-grid reverse">
+            <div class="discipline-block-img">
+              <img
+                src="Images/IMG_5512-1.JPG"
+                alt="Classical theatre production"
+                loading="lazy"
+              />
+            </div>
+            <div class="discipline-block-text">
+              <span class="section-label">Theatre</span>
+              <h2>The Magic of Theatre: Bringing Stories to Life</h2>
+              <div class="feature-cards cols-2">
+                <div class="feature-card">
+                  <h4>Immersive Storytelling</h4>
+                  <p>
+                    Theatre transports audiences into captivating narratives,
+                    allowing them to experience characters' journeys firsthand.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <h4>Collaborative Art</h4>
+                  <p>
+                    Writers, directors, actors, and technicians unite to create
+                    a unified artistic vision on stage.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <h4>Social Change</h4>
+                  <p>
+                    From Partition narratives to women's empowerment, Vacika's
+                    theatre drives awareness and action.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <h4>Transformative Power</h4>
+                  <p>
+                    Live performance inspires audiences, challenges
+                    perspectives, and catalyses community dialogue.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dance -->
+        <div class="discipline-block reveal">
+          <div class="discipline-block-grid">
+            <div class="discipline-block-img">
+              <img
+                src="Images/IMG_7926.JPG"
+                alt="Traditional dance and theatre performance"
+                loading="lazy"
+              />
+            </div>
+            <div class="discipline-block-text">
+              <span class="section-label">Dance</span>
+              <h2>The Beauty of Dance: Emotion Through Movement</h2>
+              <div class="feature-cards">
+                <div class="feature-card">
+                  <h4>Embodied Expression</h4>
+                  <p>
+                    Dance conveys emotions, ideas, and narratives through the
+                    expressive language of the human body.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <h4>Cultural Traditions</h4>
+                  <p>
+                    Classical and folk dance forms reflect India's diverse
+                    regional identities, customs, and histories.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <h4>Transcendent Experience</h4>
+                  <p>
+                    A captivating dance performance can be profoundly moving for
+                    both performers and audiences alike.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Street Play -->
+        <div class="discipline-block reveal">
+          <div class="discipline-block-grid reverse">
+            <div class="discipline-block-img">
+              <img
+                src="Images/IMG_20250220_154029.jpg"
+                alt="Street play on social themes"
+                loading="lazy"
+              />
+            </div>
+            <div class="discipline-block-text">
+              <span class="section-label">Street Play</span>
+              <h2>Street Theatre: Art That Reaches Every Corner</h2>
+              <div class="feature-cards cols-2">
+                <div class="feature-card">
+                  <h4>Social Awareness</h4>
+                  <p>
+                    Plays on women empowerment, corruption, road safety, and
+                    voter rights educate and inspire action.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <h4>Public Accessibility</h4>
+                  <p>
+                    Performing in open spaces makes complex issues accessible to
+                    diverse audiences nationwide.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <h4>Grassroots Impact</h4>
+                  <p>
+                    Street theatre reaches villages and towns where conventional
+                    venues don't exist.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <h4>Community Dialogue</h4>
+                  <p>
+                    Post-performance discussions turn audiences into active
+                    participants in social change.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Diversity Banner -->
+    <section class="section banner-section">
+      <div class="container banner-content reveal">
+        <span class="section-label">Our Vision</span>
+        <h2>A Platform Where Culture Meets Commerce</h2>
+        <p>
+          Vacika envisions an India where every artist has a stage, every
+          community has access to the arts, and every investor can measure the
+          return — not just in revenue, but in cultural preservation, social
+          cohesion, and national pride.
+        </p>
+      </div>
+    </section>
+
+    <!-- Performing Arts -->
+    <section class="section performing-arts" id="performing-arts">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">On Stage</span>
+          <h2>Performing Arts: Bringing Stories to Life</h2>
+        </div>
+        <div class="perform-grid reveal">
+          <article class="perform-card">
+            <div class="perform-card-icon">🎭</div>
+            <h3>Street Play</h3>
+            <p>
+              Powerful productions on women empowerment, corruption, LGBTQ
+              rights, and social justice — performed where the nation gathers.
+            </p>
+          </article>
+          <article class="perform-card">
+            <div class="perform-card-icon">🎨</div>
+            <h3>Classical Arts</h3>
+            <p>
+              Preserving India's classical music, dance, and visual traditions
+              through curated performances and educational outreach.
+            </p>
+          </article>
+          <article class="perform-card">
+            <div class="perform-card-icon">🎪</div>
+            <h3>Theatre</h3>
+            <p>
+              From historical epics to contemporary drama — productions that
+              entertain, educate, and inspire audiences to act.
+            </p>
+          </article>
+        </div>
+
+        <div class="perform-detail-grid">
+          <article class="perform-detail reveal">
+            <h3>Street Play</h3>
+            <ol class="numbered-list">
+              <li>
+                <strong>Social Awareness and Education</strong>
+                <p>
+                  Street plays on topics like women empowerment, corruption,
+                  LGBTQ rights, road safety, voter rights, and drug prevention
+                  raise awareness and encourage positive societal change.
+                </p>
+              </li>
+              <li>
+                <strong>Engagement and Accessibility</strong>
+                <p>
+                  By performing in public spaces, these plays make complex
+                  issues accessible, engaging diverse audiences and inspiring
+                  them to reflect, discuss, and take action.
+                </p>
+              </li>
+            </ol>
+          </article>
+          <article class="perform-detail reveal">
+            <h3>Theatre</h3>
+            <ol class="numbered-list">
+              <li>
+                <strong>Promoting Social Responsibility</strong>
+                <p>
+                  Theatre acts as a powerful medium to highlight key social
+                  concerns, motivating audiences to recognize their roles in
+                  fostering a fair and responsible society.
+                </p>
+              </li>
+              <li>
+                <strong>Encouraging Empathy and Action</strong>
+                <p>
+                  Through compelling storytelling and character-driven
+                  narratives, theatre inspires audiences to empathize with
+                  others' struggles and take meaningful steps toward change.
+                </p>
+              </li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Vacika -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">About Vacika</span>
+          <h2>A Creative Trust Built for Scale</h2>
+        </div>
+        <div class="about-pillars reveal">
+          <article class="pillar-card">
+            <h3>Artistic Excellence</h3>
+            <p>
+              Vacika attracts talented performers, musicians, and directors to
+              create unforgettable, investor-grade productions.
+            </p>
+          </article>
+          <article class="pillar-card">
+            <h3>Community Engagement</h3>
+            <p>
+              Deep roots in local communities through educational programs,
+              workshops, and free public performances.
+            </p>
+          </article>
+          <article class="pillar-card">
+            <h3>Cultural Preservation</h3>
+            <p>
+              Committed to safeguarding India's classical art forms and
+              documenting living traditions for future generations.
+            </p>
+          </article>
+        </div>
+
+        <div class="aim-objective-grid">
+          <div class="aim-block reveal">
+            <span class="section-label">Our Aim</span>
+            <h3>Promoting Cultural Enrichment</h3>
+            <ol class="numbered-list compact">
+              <li>
+                <strong>Artistic Excellence</strong> — Presenting the highest
+                caliber of classical and contemporary performing arts.
+              </li>
+              <li>
+                <strong>Accessibility</strong> — Making the arts accessible to
+                all, regardless of background or socioeconomic status.
+              </li>
+              <li>
+                <strong>Cultural Preservation</strong> — Safeguarding India's
+                rich cultural heritage for future generations.
+              </li>
+              <li>
+                <strong>Educational Outreach</strong> — Programs and workshops
+                that inspire audiences of all ages.
+              </li>
+            </ol>
+          </div>
+          <div class="aim-block reveal">
+            <span class="section-label">Our Objective</span>
+            <h3>Building a National Platform</h3>
+            <ol class="numbered-list compact">
+              <li>
+                <strong>Inclusive Programming</strong> — Diverse performances
+                catering to varied interests, languages, and cultural
+                backgrounds.
+              </li>
+              <li>
+                <strong>Strategic Partnerships</strong> — Collaborations with
+                corporates, NGOs, and government bodies for scaled impact.
+              </li>
+              <li>
+                <strong>Professional Infrastructure</strong> — Building
+                production, touring, and digital capabilities for nationwide
+                reach.
+              </li>
+              <li>
+                <strong>Measurable Impact</strong> — Transparent reporting on
+                reach, engagement, and social outcomes for stakeholders.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Investor CTA -->
+    <section class="section investor-cta" id="invest">
+      <div class="container">
+        <div class="investor-grid">
+          <div class="investor-content reveal">
+            <span class="section-label">Investment Opportunity</span>
+            <h2>Partner With Vacika to Shape India's Cultural Future</h2>
+            <p>
+              The Indian performing arts market is underserved and ripe for
+              institutional investment. Vacika offers a proven track record, a
+              passionate team, and a scalable model that turns cultural capital
+              into measurable social and financial returns.
+            </p>
+            <p>
+              Whether you're a CSR leader, impact investor, or philanthropic
+              foundation — Vacika provides the platform, the productions, and
+              the proof of impact.
+            </p>
+            <a href="#contact" class="btn btn-primary"
+              >Schedule a Conversation</a
+            >
+          </div>
+          <div class="investor-cards reveal">
+            <div class="investor-card">
+              <h4>Proven Track Record</h4>
+              <p>
+                150+ productions, 50+ communities, and a decade of grassroots
+                cultural work across India.
+              </p>
+            </div>
+            <div class="investor-card">
+              <h4>Scalable Model</h4>
+              <p>
+                Replicable framework for touring productions, digital content,
+                and community partnerships.
+              </p>
+            </div>
+            <div class="investor-card">
+              <h4>Dual Returns</h4>
+              <p>
+                Measurable social impact alongside brand visibility, CSR
+                compliance, and cultural goodwill.
+              </p>
+            </div>
+            <div class="investor-card">
+              <h4>National Reach</h4>
+              <p>
+                A platform designed to grow from regional roots to a pan-India
+                cultural institution.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Impact -->
+    <section class="section education" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Education &amp; Impact</span>
+          <h2>Nurturing Creativity, Enriching Lives</h2>
+        </div>
+
+        <div class="edu-grid reveal">
+          <article class="edu-card">
+            <h3>The Significance of Art Education</h3>
+            <ul class="icon-list">
+              <li>
+                <strong>Creative Thinking</strong> — Fosters critical thinking,
+                problem-solving, and innovative mindsets.
+              </li>
+              <li>
+                <strong>Self-Expression</strong> — A platform to explore and
+                communicate unique perspectives and emotions.
+              </li>
+              <li>
+                <strong>Cultural Understanding</strong> — Cultivates
+                appreciation for India's diversity and global perspectives.
+              </li>
+              <li>
+                <strong>Lifelong Appreciation</strong> — Early exposure inspires
+                a lasting passion that enriches communities.
+              </li>
+            </ul>
+          </article>
+          <article class="edu-card">
+            <h3>Why Arts Investment Matters</h3>
+            <ul class="icon-list">
+              <li>
+                <strong>Nation Building</strong> — Shared cultural experiences
+                strengthen social cohesion and national identity.
+              </li>
+              <li>
+                <strong>Economic Opportunity</strong> — India's creative economy
+                is projected to grow significantly this decade.
+              </li>
+              <li>
+                <strong>Social Returns</strong> — Arts education improves mental
+                well-being, empathy, and civic engagement.
+              </li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="process-block reveal">
+          <h3>How Vacika Creates Impact</h3>
+          <div class="process-steps">
+            <div class="process-step">
+              <h4>Curate</h4>
+              <p>
+                Identify artists, themes, and communities where cultural
+                intervention creates the greatest impact.
+              </p>
+            </div>
+            <div class="process-step">
+              <h4>Produce</h4>
+              <p>
+                Professional productions — from street plays to grand theatre —
+                delivered with artistic excellence.
+              </p>
+            </div>
+            <div class="process-step">
+              <h4>Scale</h4>
+              <p>
+                Tour nationally, digitise content, and partner with institutions
+                to multiply reach and returns.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </section>
+
+    <!-- Support -->
+    <section class="section support" id="support">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Get Involved</span>
+          <h2>Support Vacika</h2>
+          <p class="section-sub">
+            Your support helps us preserve traditions, nurture talent, and bring
+            the arts to every community across the nation.
+          </p>
+        </div>
+        <div class="support-grid reveal">
+          <article class="support-card">
+            <h3>Become a Donor</h3>
+            <p>
+              Tax-deductible contributions that fuel Vacika's mission of
+              cultural enrichment and national impact.
+            </p>
+            <a href="#contact" class="btn btn-primary">Donate Now</a>
+          </article>
+          <article class="support-card">
+            <h3>Corporate Partnership</h3>
+            <p>
+              CSR-aligned sponsorships with measurable brand visibility and
+              documented social outcomes.
+            </p>
+            <a href="#contact" class="btn btn-outline">Partner With Us</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-info reveal">
+          <span class="section-label">Contact Us</span>
+          <h2>Get in Touch</h2>
+          <p>
+            Reach out to discuss investment opportunities, corporate
+            partnerships, volunteering, or attending our next performance.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-item-logo">
+                <i class="fa-solid fa-phone"></i>
+              </span>
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:+919990343963">+91-9990343963</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item-logo">
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:vacikaorg@gmail.com">vacikaorg@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#top">
+            <span class="logo-text">VACIKA</span>
+          </a>
+          <p>
+            Celebrating the art of performance — preserving traditions, building
+            platforms, inspiring a nation.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#platform">Our Platform</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#disciplines">Disciplines</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#invest">Invest</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; 2026 Vacika Trust. All rights reserved.</p>
+        <p class="footer-tagline">
+          <a href="tel:+919990343963"><i class="fa-solid fa-phone"></i></a></li>
+          <a href="mailto:vacikaorg@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
